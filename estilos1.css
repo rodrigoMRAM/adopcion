@@ -1,0 +1,381 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.enlaces{
+	display: flex;
+}
+.ham{
+	display: none;
+	position: absolute;
+	right: 20px;
+	flex-direction: column;
+	cursor: pointer;
+
+}
+span{
+	height: 2px;
+	width: 25px;
+	margin-top: 4px;
+	background-color: #fff;
+}
+body{
+	background: white;
+}
+.elfixed{
+	background: black;
+	width: 100%;
+	position: fixed;
+
+}
+.form{
+	background: black;
+
+
+}
+.lista{
+	display: flex;
+	margin:  auto;
+	align-items: center;
+}
+.item{
+	padding: 20px;
+	list-style: none;
+}
+.navegador{
+	text-decoration: none;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 20px;
+	font-weight: bold;
+}
+.navegador:hover{
+	background: rgb(255,255,255, 0.3);
+	border-radius: 2px;
+}
+p{	
+	color: white;
+}
+.pp{
+	justify-content: flex-start;
+	padding-right: 60px;
+	margin-left: 20px;
+	font-family: 'Estonia', cursive;
+	font-size: 50px;
+}
+.info{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 20px;		
+}
+.adopcion{
+	margin-top: 40px;
+	font-size: 50px;
+}
+.subtitulo{
+	margin-bottom: 30px;
+}
+
+.imagenes{
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+	background: grey ;
+	width: 910px;
+	margin: auto;
+
+
+}
+.perro1{
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+}
+.perro2{
+	width: 300px;
+	height: 300px;
+	
+	border: 2px solid black;
+}
+.perro3{
+	width: 300px;
+	height: 300px;
+	border: 2px solid black;
+}
+.perro1:hover{
+	box-shadow: 5px 10px 8px white;
+	border: 2px solid black;
+	transition-property: box-shadow;
+	transition-duration: .5s;
+}
+.perro2:hover{
+	box-shadow: 5px 10px 8px white;
+	border: 2px solid black;
+	transition-property: box-shadow;
+	transition-duration: .5s;
+}
+.perro3:hover{
+	box-shadow: 5px 10px 8px white;
+	border: 2px solid black;
+	transition-property: box-shadow;
+	transition-duration: .5s;
+}
+.texto1{
+	display: flex;
+	flex-direction: column;
+	background: grey;
+	width: 910px;
+	font-size: 10px;
+	margin: auto;
+	text-align: center;
+	align-items: center;
+
+}
+.institucion{
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.imagenes2{
+	padding-top: 30px;
+}
+.sincosto{
+	padding-bottom: 30px;
+}
+.nuevohogar{
+	padding-top: 30px;
+	padding-bottom: 30px;
+
+}
+.elflex{
+	padding-left: 4px;
+	display: flex;
+	margin: auto;
+}
+.perro11{
+	border: 2px solid black;
+}
+.perro22{
+	border: 2px solid black;
+	width: 450px;
+	height: 450px;
+}
+.perro33{
+	border: 2px solid black;
+	width: 450px;
+	height: 450px;
+}
+.textodeperro{
+	width: 50%;
+}
+.texto2 {
+	background: grey;
+	width: 910px;
+	font-size: 10px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+	bottom: 400px;
+	right: 400px;
+}
+.carru{
+    width: 500px;
+    height: 500px;
+}
+
+
+
+/*------------------------Carrousel-------------------------------*/
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  top: 150px;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@media screen and (min-width: 400px) and (max-width:650px){
+	.slideshow-container.caruactive{
+    display: none;
+  }
+  .pp{
+		display: block;
+		align-self: flex-start;
+	}
+
+		.ham{
+		display: flex;
+		position: fixed;
+		top: 20px;
+	}
+	.item{
+		margin-top: 25%;
+		padding: 20px;
+		list-style: none;
+		width: 100%;
+		display: flex;
+	}
+	.lista{
+		flex-direction: column;
+	}
+	.enlaces{
+		height: 1000vh;
+		flex-direction: column;
+		display: none;
+		width: 100%;
+
+	}
+	.lista.activado{
+		display: flex;
+	}
+	.enlaces.activado{
+		display: flex;
+		text-align: center;
+	}
+	.adopcion{
+		margin-top: 50px;
+	}
+	
+	.imagenes {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.perro1{
+		width: 70%;
+	}
+	.perro2{
+		width: 70%;
+	}
+	.perro3{
+		width: 70%;
+	}
+	.perro11{
+		width: 70%;
+	}
+	.texto1{
+		text-align: center;
+		align-items: flex-start;
+	}
+	.imagenes2{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: flex-start;
+
+	}
+	.elflex{
+		flex-wrap: wrap;
+		display: flex;
+		flex-direction:column;
+		text-align: center;
+		
+	}
+	.homeperro{
+		display: flex;
+		align-items: center;
+	}
+	.perro22{
+		width: 70%;
+	}
+	.perro33{
+		width: 70%;
+	}
+	.navegador{
+		width: 100%;
+	}
+	
+	
+}

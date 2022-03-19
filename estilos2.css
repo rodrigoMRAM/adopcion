@@ -1,0 +1,210 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.map{
+	height: 500px;
+	width: 500px;
+}
+
+.articulo{
+    margin: 0 auto;
+    display: flex;
+    border: 2px solid black;
+    position: relative;
+    width: 800px;
+    height: 600px;
+    top: 100px;
+}
+.pf{
+    color: black;
+}
+.perro2{
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+.enlaces{
+	display: flex;
+}
+.ham{
+	position: absolute;
+	right: 20px;
+	flex-direction: column;
+	cursor: pointer;
+
+}
+span{
+	height: 2px;
+	width: 25px;
+	margin-top: 4px;
+	background-color: #fff;
+}
+body{
+	background: white;
+}
+.elfixed{
+	background: black;
+	width: 100%;
+	position: fixed;
+
+}
+.form{
+	background: black;
+
+
+}
+.lista{
+	display: flex;
+	margin:  auto;
+	align-items: center;
+}
+.item{
+	padding: 20px;
+	list-style: none;
+}
+.navegador{
+	text-decoration: none;
+	font-family: sans-serif;
+	letter-spacing: 2px;
+	color: #fff;
+	padding: 20px;
+	font-weight: bold;
+}
+article{
+    display: flex;
+}
+.navegador:hover{
+	background: rgb(255,255,255, 0.3);
+	border-radius: 2px;
+}
+p{	
+	color: white;
+}
+.pp{
+	justify-content: flex-start;
+	padding-right: 60px;
+	margin-left: 20px;
+	font-family: 'Estonia', cursive;
+	font-size: 50px;
+}
+.info{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 20px;		
+}
+.adopcion{
+	margin-top: 40px;
+	font-size: 50px;
+}
+
+
+
+
+@media screen and (min-width: 400px) and (max-width:650px){
+	.pp{
+		display: block;
+		align-self: flex-start;
+	}
+    .articulo{
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+    }
+
+    
+
+		.ham{
+		display: flex;
+		position: fixed;
+		top: 20px;
+	}
+ 
+
+	.item{
+		margin-top: 25%;
+		padding: 20px;
+		list-style: none;
+		width: 100%;
+		display: flex;
+	}
+	.lista{
+		flex-direction: column;
+	}
+    .articulo.actper{
+        display: none;
+        
+
+    }
+	.enlaces{
+		height: 1000vh;
+		flex-direction: column;
+		display: none;
+		width: 100%;
+
+	}
+	.lista.activado{
+		display: flex;
+	}
+	.enlaces.activado{
+		display: flex;
+		text-align: center;
+	}
+	.adopcion{
+		margin-top: 50px;
+	}
+	
+	.imagenes {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+	}
+	.perro1{
+		width: 70%;
+	}
+	.perro2{
+		width: 70%;
+	}
+	.perro3{
+		width: 70%;
+	}
+	.perro11{
+		width: 70%;
+	}
+	.texto1{
+		text-align: center;
+		align-items: flex-start;
+	}
+	.imagenes2{
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: flex-start;
+
+	}
+	.elflex{
+		flex-wrap: wrap;
+		display: flex;
+		flex-direction:column;
+		text-align: center;
+		
+	}
+	.homeperro{
+		display: flex;
+		align-items: center;
+	}
+	.perro22{
+		width: 70%;
+	}
+	.perro33{
+		width: 70%;
+	}
+	.navegador{
+		width: 100%;
+	}
+	
+	
+}
