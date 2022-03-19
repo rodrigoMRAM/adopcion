@@ -104,7 +104,7 @@ p{
 
 
 
-@media screen and (min-width: 400px) and (max-width:880px){
+@media all and (min-width: 400px) and (max-width:880px){
 	.pp{
 		display: block;
 		align-self: flex-start;
@@ -114,9 +114,6 @@ p{
         width: 80%;
         align-items: center;
     }
-
-    
-
 		.ham{
 		display: flex;
 		position: fixed;
