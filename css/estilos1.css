@@ -286,7 +286,7 @@ p{
   to {opacity: 1}
 }
 
-@media screen and (min-width: 400px) and (max-width:650px){
+@media screen and (min-width: 400px) and (max-width:880px){
 	.slideshow-container.caruactive{
     display: none;
   }
